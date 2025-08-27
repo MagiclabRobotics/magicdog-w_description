@@ -35,7 +35,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_base.stl" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_base.stl" scale="1 1 1"/>
         <!-- <box size="0.327 0.194 0.114"/> -->
       </geometry>
       <material name="silver"/>
@@ -84,7 +84,7 @@
     <visual>
       <origin rpy="-1.5707963267948966 -1.5707963267948966 0 " xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_abad.stl" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_abad.stl" scale="1 1 1"/>
       </geometry>
       <material name="grey"/>
     </visual>
@@ -112,7 +112,7 @@
     <visual>
       <origin rpy="3.141592653589793 -1.5707963267948966 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_hip_right.stl" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_hip_right.stl" scale="1 1 1"/>
       </geometry>
       <material name="orange"/>
     </visual>
@@ -140,7 +140,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_right_knee_wheel.STL" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_right_knee_wheel.STL" scale="1 1 1"/>
       </geometry>
       <material name="red"/>
     </visual>
@@ -150,7 +150,7 @@
       <geometry>
         <box size="0.28885 0.025 0.025"/>
         <!-- <box size="0.28885 0.016 0.016"/> -->
-        <!-- <mesh filename="../meshes/magicdog_right_knee_wheel.STL" scale="1 1 1"/> -->
+        <!-- <mesh filename="package://magicdog-w_description/meshes/magicdog_right_knee_wheel.STL" scale="1 1 1"/> -->
       </geometry>
     </collision>
     <inertial>
@@ -159,7 +159,7 @@
       <inertia ixx="0.006748" ixy="-0.000037" ixz="-0.000341" iyy="0.007322" iyz="-0.000283" izz="0.000811"/>
     </inertial>
   </link>
-  <joint name="FR_wheel_joint" type="revolute">
+  <joint name="FR_wheel_joint" type="continuous">
     <origin rpy="0 0 0" xyz="0 0 -0.24351"/>
     <parent link="FR_calf"/>
     <child link="FR_wheel"/>
@@ -171,7 +171,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_right_wheel.STL" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_right_wheel.STL" scale="1 1 1"/>
       </geometry>
       <material name="grey"/>
     </visual>
@@ -199,7 +199,7 @@
     <visual>
       <origin rpy="1.5707963267948966 1.5707963267948966 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_abad.stl" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_abad.stl" scale="1 1 1"/>
       </geometry>
       <material name="grey"/>
     </visual>
@@ -227,7 +227,7 @@
     <visual>
       <origin rpy="3.141592653589793 -1.5707963267948966 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_hip.stl" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_hip.stl" scale="1 1 1"/>
       </geometry>
       <material name="orange"/>
     </visual>
@@ -255,7 +255,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_left_knee_wheel_.STL" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_left_knee_wheel_.STL" scale="1 1 1"/>
       </geometry>
       <material name="red"/>
     </visual>
@@ -264,7 +264,7 @@
       <!-- <origin rpy="0 0 0" xyz="0 0 0"/> -->
       <geometry>
         <box size="0.28885 0.025 0.025"/>
-        <!-- <mesh filename="../meshes/magicdog_left_knee_wheel_.STL" scale="1 1 1"/> -->
+        <!-- <mesh filename="package://magicdog-w_description/meshes/magicdog_left_knee_wheel_.STL" scale="1 1 1"/> -->
       </geometry>
     </collision>
     <inertial>
@@ -273,7 +273,7 @@
       <inertia ixx="0.006799" ixy="0.000019" ixz="-0.000335" iyy="0.007357" iyz="0.000154" izz="0.000844"/>
     </inertial>
   </link>
-  <joint name="FL_wheel_joint" type="revolute">
+  <joint name="FL_wheel_joint" type="continuous">
     <origin rpy="0 0 0" xyz="0 0 -0.24351"/>
     <parent link="FL_calf"/>
     <child link="FL_wheel"/>
@@ -285,7 +285,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_left_wheel.STL" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_left_wheel.STL" scale="1 1 1"/>
       </geometry>
       <material name="grey"/>
     </visual>
@@ -313,7 +313,7 @@
     <visual>
       <origin rpy="-1.5707963267948966 1.5707963267948966 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_abad.stl" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_abad.stl" scale="1 1 1"/>
       </geometry>
       <material name="grey"/>
     </visual>
@@ -341,7 +341,7 @@
     <visual>
       <origin rpy="3.141592653589793 -1.5707963267948966 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_hip_right.stl" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_hip_right.stl" scale="1 1 1"/>
       </geometry>
       <material name="orange"/>
     </visual>
@@ -369,7 +369,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_right_knee_wheel.STL" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_right_knee_wheel.STL" scale="1 1 1"/>
       </geometry>
       <material name="red"/>
     </visual>
@@ -378,7 +378,7 @@
       <!-- <origin rpy="0 0 0" xyz="0 0 0"/> -->
       <geometry>
         <box size="0.28885 0.025 0.025"/>
-        <!-- <mesh filename="../meshes/magicdog_right_knee_wheel.STL" scale="1 1 1"/> -->
+        <!-- <mesh filename="package://magicdog-w_description/meshes/magicdog_right_knee_wheel.STL" scale="1 1 1"/> -->
       </geometry>
     </collision>
     <inertial>
@@ -387,7 +387,7 @@
       <inertia ixx="0.006748" ixy="-0.000037" ixz="-0.000341" iyy="0.007322" iyz="-0.000283" izz="0.000811"/>
     </inertial>
   </link>
-  <joint name="RR_wheel_joint" type="revolute">
+  <joint name="RR_wheel_joint" type="continuous">
     <origin rpy="0 0 0" xyz="0 0 -0.24351"/>
     <parent link="RR_calf"/>
     <child link="RR_wheel"/>
@@ -399,7 +399,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_right_wheel.STL" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_right_wheel.STL" scale="1 1 1"/>
       </geometry>
       <material name="grey"/>
     </visual>
@@ -427,7 +427,7 @@
     <visual>
       <origin rpy="1.5707963267948966 -1.5707963267948966 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_abad.stl" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_abad.stl" scale="1 1 1"/>
       </geometry>
       <material name="grey"/>
     </visual>
@@ -455,7 +455,7 @@
     <visual>
       <origin rpy="3.141592653589793 -1.5707963267948966 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_hip.stl" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_hip.stl" scale="1 1 1"/>
       </geometry>
       <material name="orange"/>
     </visual>
@@ -483,7 +483,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_left_knee_wheel_.STL" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_left_knee_wheel_.STL" scale="1 1 1"/>
       </geometry>
       <material name="red"/>
     </visual>
@@ -492,7 +492,7 @@
       <!-- <origin rpy="0 0 0" xyz="0 0 0"/> -->
       <geometry>
         <box size="0.28885 0.025 0.025"/>
-        <!-- <mesh filename="../meshes/magicdog_left_knee_wheel_.STL" scale="1 1 1"/> -->
+        <!-- <mesh filename="package://magicdog-w_description/meshes/magicdog_left_knee_wheel_.STL" scale="1 1 1"/> -->
       </geometry>
     </collision>
     <inertial>
@@ -501,7 +501,7 @@
       <inertia ixx="0.006799" ixy="0.000019" ixz="-0.000335" iyy="0.007357" iyz="0.000154" izz="0.000844"/>
     </inertial>
   </link>
-  <joint name="RL_wheel_joint" type="revolute">
+  <joint name="RL_wheel_joint" type="continuous">
     <origin rpy="0 0 0" xyz="0 0 -0.24351"/>
     <parent link="RL_calf"/>
     <child link="RL_wheel"/>
@@ -513,7 +513,7 @@
     <visual>
       <origin rpy="0 0 0" xyz="0 0 0"/>
       <geometry>
-        <mesh filename="../meshes/magicdog_left_wheel.STL" scale="1 1 1"/>
+        <mesh filename="package://magicdog-w_description/meshes/magicdog_left_wheel.STL" scale="1 1 1"/>
       </geometry>
       <material name="grey"/>
     </visual>
